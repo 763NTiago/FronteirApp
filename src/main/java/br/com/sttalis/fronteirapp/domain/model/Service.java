@@ -53,7 +53,7 @@ public class Service {
 
     // Construtor pratico
 
-    public Service(String title, String description, BigDecimal price
+    public Service(String title, String description, BigDecimal price,
                    Currency currency, ServiceCategory category, User provider){
         this.title = title;
         this.description = description;
