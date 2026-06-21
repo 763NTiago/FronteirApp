@@ -1,6 +1,6 @@
 package br.com.sttalis.fronteirapp.domain.service;
 
-import br.com.sttalis.fronteirapp.dto.RequestDTO;
+import br.com.sttalis.fronteirapp.api.dto.RequestDTO;
 import br.com.sttalis.fronteirapp.api.dto.ResponseDTO;
 import br.com.sttalis.fronteirapp.domain.model.User;
 import br.com.sttalis.fronteirapp.domain.repository.UserRepository;
@@ -41,7 +41,7 @@ public class UserService {
         User savedUser = userRepository.save(useToSave);
 
         //4. Conversao de Entidade -> DTO seguro pra retorno
-        return.new UserResponseDTO(
+        return new UserResponseDTO(
                 savedUser.getId(),
                 savedUser.getName(),
                 savedUser.getEmail(),

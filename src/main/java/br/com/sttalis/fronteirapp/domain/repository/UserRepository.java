@@ -15,5 +15,5 @@ public interface UserRepository extends JpaRepository<User, UUID> {
      * SQL gerado: SELEC CASE WHEN COUNT (u) > 0 THEN true ELSE false END FRON td_users u WHERE u.email = ?
      */
 
-    boolean exists ByEmail(String email);
+    boolean existsByEmail(String email);
 }

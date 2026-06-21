@@ -1,7 +1,7 @@
-package br.com.sttalis.fronteirapp.api.dto/
+package br.com.sttalis.fronteirapp.api.dto;
 
 import br.com.sttalis.fronteirapp.domain.model.Country;
-import br.com.sttalis.fronteirapp.domain.model.UserRol;
+import br.com.sttalis.fronteirapp.domain.model.UserRole;
 import jakarta.valitation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
