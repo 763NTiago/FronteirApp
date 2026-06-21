@@ -74,8 +74,7 @@ public class Service {
      */
 
     public UUID getId() {
-        return id;
-    }
+        return id;}
 
     public void setId(UUID id) {
         this.id = id;
@@ -128,6 +127,5 @@ public class Service {
     public void setCreatedAT(LocalDateTime createdAT) {
         this.createdAT = createdAT;
     }
-
 
 }
